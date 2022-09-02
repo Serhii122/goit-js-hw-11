@@ -11,7 +11,7 @@ export default class NewApiServer {
 
   async fethApiServes() {
     const URL = 'https://pixabay.com/api/';
-    const KEY = '29453019-5a69b6c7b2f01a070c80deb0c';
+    const KEY = '29665218-16970e7e0c98d40c5a4df11bd';
 
     const resp = await axios.get(`${URL}`, {
       params: {
