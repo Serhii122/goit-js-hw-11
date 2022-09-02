@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(254, 236, 214);
+    padding: 0 30px;
+    text-align: center;
+}
+
+.search-form input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search-form button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.gallery {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &_card {
+        border: 2px solid rgb(142, 174, 111);
+        margin-bottom: 11px;
+    }
+
+    &_img {
+        height: 250px;
+        width: 350px;
+    }
+
+    &_info {
+        widows: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &_info-item {
+        margin: 4px;
+        font-size: 12;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.load-more {
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.is-hiden {
+    display: none;
+}
+
+span {
+    border-right: 1px solid;
+}
+
+img {
+    display: block;
+}
